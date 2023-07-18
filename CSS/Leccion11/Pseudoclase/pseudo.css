@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: rgb(106, 28, 28);
+}
+div.cajita{
+   width: 30%;
+   height: 20%;
+   margin: auto;
+   border: 5px solid burlywood;
+   padding: 15px;  
+   text-align: center;
+}
+/*aplica una pseudoclase con :*/
+div.cajita:hover{/*Cuando el puntero esta arriba*/
+    background-color: antiquewhite;
+    color: brown;
+    border: 5px solid rgb(170, 111, 32);
+}
+div.cajita.oculto p{
+    display: none;/*Oculta el elemento del selector*/
+}
+div.cajita.oculto:hover p{
+    display: block;
+    background-color: brown;
+    color: aliceblue;
+    padding: 15px;
+}
+div.cajita.primero p:first-child{/*Pseudoclase para primer parrafo*/
+    font-variant: small-caps;
+}

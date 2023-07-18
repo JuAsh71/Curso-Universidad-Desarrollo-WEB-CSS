@@ -1,0 +1,30 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(34, 36, 36, 0.289);
+    text-align: center;
+    text-transform: capitalize;
+    /*Transforma el texto en mayusculas, minusculas, etc.*/
+    text-shadow: 2px 2px 2px rgb(137, 137, 137);
+    /*sombra en eje X Y difuminado color*/
+    letter-spacing: 4px;
+    /*espacio entre caracteres*/
+    word-spacing: 5px;
+    /*espacio entre palabras*/
+}
+.cajita{
+    background-color: antiquewhite;
+    padding: 13px;
+    margin: auto;
+    width: 60%;
+    border-radius: 6px;
+}
+.texto{
+    text-align: justify;
+    /*direction: ltr;   la direccion a la que se lee el texto*/
+    /*text-decoration: none;   decoracion del texto especialmente 
+    texto de link, puede tener mas de 1 decoracion */
+    line-height: 1.6; /*espacio entre renglones*/
+    white-space: normal; /*Como se acomodara el texto*/
+    text-shadow: 2px 3px 4px rgb(91, 88, 88);
+
+}

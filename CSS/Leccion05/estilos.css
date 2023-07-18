@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+    color: brown;
+    background-image: url(imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left;
+    background-attachment: fixed;
+    /*background: brown url(imagenfondo.jpg); top left no-repeat;    <--manera de simplificar lo de arriba*/
+}
+h1{
+text-align: center;
+font-size: 75px;
+}
+p{
+    font-size: 40px;
+}

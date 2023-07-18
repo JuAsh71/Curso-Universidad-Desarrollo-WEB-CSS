@@ -1,0 +1,22 @@
+div{
+    border: 3px solid rgb(84, 49, 16) ;
+    padding: 15px;
+    margin: auto;
+}
+.estatico{
+    position: static;
+    background-color: antiquewhite;
+}
+.relativo{
+    position: relative;
+    background-color: aquamarine;
+    z-index: -1;
+}
+.absoluto{
+    position: absolute;
+    background-color: burlywood;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    z-index: 1;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores en CSS</title>
+    <link href="estilos.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Selectores combinados en CSS</h1>
+    <h2>Slector descendiente</h2>
+    <div class="cajita descendiente">
+        Selectores descendientes (en cualquier nivel interno).
+        <p>Renglon (a)</p>
+        <p>Renglon (b)</p>
+        <section>
+            <p>Renglon (c)</p>
+        </section>
+    </div>
+<h2>Selector hijo</h2>
+    <div class="cajita hijo">
+        Selectores hijo (Solo se aplica a hijos directos).
+        <p>Renglon (a) (hijo de div)</p>
+        <p>Renglon (b) (hijo de div)</p>
+        <section>
+            <p>Renglon (c) (hijo indirecto de div)</p>
+        </section>
+    </div>
+    <h2>Selector adyacente</h2>
+    <div class="cajita adyacente">
+        Selector adyacente (Se aplica a elementos fuera de esta etiqueta, 
+        pero solo si estan exactamente despues de la misma)
+        <p>Renglon (a) (Dentro de div)</p>
+        <p>Renglon (b) (Dentro de div)</p>
+    </div>
+        <p>Renglon (c) Exactamente despues del div</p>
+        <p>Renglon (d) Despues del parrafo (c)
+            (no se aplica el estilo adyacente)</p>
+    <h2>Selector hermano</h2>
+    <div class="cajita hermano">
+        Selector hermano (Se aplica a elementos que esten en su mismo nivel)
+        <p>Renglon (a) (No esta en el nivel del div)</p>
+        <p>Renglon (b) (No esta en el nivel del div)</p> 
+    </div>
+    <p>Renglon (c) (Esta en el nivel del div)</p>
+    <p>Renglon (d) (Esta en el nivel del div)</p> 
+</body>
+</html>

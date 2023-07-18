@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: rgb(57, 22, 91);
+}
+.cajita{
+    border: 5px solid blueviolet;
+    text-align: center;
+    padding: 25px;
+    font-size: 55px;
+    background-color: rgb(196, 163, 226);
+    margin: auto;
+}
+/*Usas pseudoelementos con :: y el pseudoelemento*/
+div.cajita 
+p::selection{/*Cuando se selecciona el elemento*/
+    background-color: rgb(157, 79, 230);
+    color: aliceblue;
+}
+ div.cajita p::first-letter{/*Primera letra del parrafo*/
+    color: rgb(76, 26, 123);
+ }

@@ -1,0 +1,24 @@
+h1{
+    font-size: 75px;
+    color: rgb(41, 67, 116);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    padding: 10px;
+    border: 9px solid rgb(155, 111, 119);
+    margin: 0 auto;/*Forma practica para centrar elementos*/
+    text-align: center;
+    width: 400px;/*Se suman los anchos y altos del margin, padding y border*/
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: 20px solid rgb(155, 53, 74);/*Espacio fuera del borde dentro del margen, puede sobreponerse a los pixeles del margen*/
+    outline-offset: 10px ; /*Espacio entre el outline y el margen*/
+    box-sizing: border-box;/*Acomoda el espacio ya establecido  en width sin hacer suma en padding, border y margin*/
+}
+p.interno{
+   margin-right: inherit; /*hereda el contenido de la caja padre*/
+}
+.boxcollapse{
+    margin: 40px; /*margin collapse hace referencia a que escoje un margen de dos divs y no toma en cuenta el otro*/
+}

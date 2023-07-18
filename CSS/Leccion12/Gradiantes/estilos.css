@@ -1,0 +1,28 @@
+html{
+    height: auto;
+    min-height:100% ;
+
+}
+body{
+   /* background: linear-gradient(color1, color2); */
+    /* background: linear-gradient(to direcciondecolores, color1,color2); */
+    /* background: linear-gradient(color1, color2, color3); */
+    /* background: linear-gradient(to direcion1 direccion2 color1,color2); */
+    /* background: linear-gradient(direccion deg, color1, color2); deg es de grados 0-360*/
+    /* background: radial-gradient(color1, color2);  degradado circular */
+}
+h1{
+    text-align: center;
+}
+div.cajita{
+   width: 30%;
+   height: 25%;
+   margin: auto;
+   border: 5px solid rgb(164, 21, 21); 
+   padding: 25px;
+   text-align: center;
+}
+div.cajita.img{
+    width: 30%;
+    height: 25%;
+}

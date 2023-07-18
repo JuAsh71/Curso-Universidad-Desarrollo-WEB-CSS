@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    color: rgb(48, 0, 100);
+    font-family: 'Nunito', sans-serif;
+}
+.cajiita{
+    padding: 10px;
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 10.5px;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.Cornsilk{
+    background-color: #FFF8DC;
+}
+.Beige{
+    background-color:#F5F5DC ;
+}
+.Blonde{
+    background-color: #FBF6D9;
+}
+.AntiqueWhite{
+    background-color: #FAEBD7;
+}
+.Champagne{
+   background-color: #F7E7CE; 
+}
+.BlanchedAlmond{
+    background-color: #FFEBCD;
+}
+.Azul{
+    background-color: blue;
+}
+.RGB{
+    background-color: rgb(96, 96, 231);
+}
+.RGBA{
+    background-color: rgba(96, 96, 231, 0.6);
+}
+.Hexa{
+    background-color: #404082;
+}
+.Hexatrans{
+    background-color: #404082c4;
+    font-size: 9.6px;
+}
+.hsl{
+    background-color: hsl(279, 49%, 39%);
+}
+.hsla{
+    background-color: hsla(279, 49%, 39%, 0.686);
+    font-size: 9.6px;
+}

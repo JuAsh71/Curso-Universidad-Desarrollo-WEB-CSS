@@ -1,0 +1,36 @@
+h1,h2{
+    text-align: center;
+}
+div.cajita{
+    width: 30%;
+    height: 100px;/*Cuando tiene un tamaño en pixeles y no en porcentaje se aplica el overflow*/
+    margin: auto;
+    border: 4px solid black;
+   /* overflow: visible;    muestra el texto por fuera de su caja*/
+    /* overflow: hidden;  oculta el texto que sale de su caja*/
+    /*overflow: scroll;    muestra el texto con un scroll dentro de su caja*/
+      overflow: auto;
+     /*Pone una opcion automatica acorde al tamaño del texto
+     
+     Otros overflow en eje x y y con las mismas propiedades
+     
+     overflow-y: tamaño;    
+     overflow-x: tamaño;  */
+     float: left;/*Flota el elemento a la izquierda*/
+}
+div.cajitados{
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    border: 4px solid black;
+    overflow: auto;
+    float: right;/*Flota el elemento a la derecha*/
+}
+div.cajitatres{
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    border: 4px solid black;
+    overflow: auto;
+    clear: both;
+}

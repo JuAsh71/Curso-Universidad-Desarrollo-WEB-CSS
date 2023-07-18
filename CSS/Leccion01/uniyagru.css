@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    color: black;
+    background-color:rgb(212, 196, 228);
+    margin-top: 45px;
+    
+}
+h1, h2, p{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+}
+aside{
+    position: fixed;
+    top:0;
+}
+aside a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(245, 245, 245, 0.382)!important;
+   margin: 15px;
+   padding: 15px;
+    border-radius: 15px;
+    float: fi;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+}
+aside a:hover{
+    background-color:rgb(230, 225, 235)!important;
+    color: rgb(156, 154, 154)!important;
+}
+p2.parrafoestilo{
+   color: indigo;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight:lighter;
+   font-size: 35PX;
+}

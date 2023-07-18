@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+h1{
+    color: #2C3333;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1.2px 1px 2px #819595;
+    font-family: 'Montserrat', sans-serif;
+}
+.cajita{
+    padding: 5px;
+    width: 40%;
+    height: 80%;
+    border-radius: 5px;
+    color: #395B64;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    float: left;
+}
+.cajita.serif{
+    background-color: #E7F6F2;
+}
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+}
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cajita.sans_serif{
+    background-color: #E7F6F2; 
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cajita.monospace{
+    background-color: #A5C9CA;
+}
+.fuente_courier{
+font-family: 'Courier New', Courier, monospace;
+font-variant: small-caps;
+/*font-style: italic;    Para darle un estilo a la fuente
+  font-weight: bold;    Para poner un ancho por defecto
+  font-weight: 300;   Para poner un ancho personalizado
+  font-variant: small-caps;  todas las letras mayusculas
+                             pero la primera de cada 
+                             palabra es mas grande*/
+}
+.cajita.cursiva{
+    background-color: #A5C9CA;
+    font-size: 16px;/*valor personalizado y predeterminado  
+                    font-size: 1em; igual a 16px
+                    1em=16px, 2em=32px*/
+}
+.fuente_cursiva{
+    font-family: 'Lucida Handwriting';
+}
+/* font: font-style font-variant font-weight *font-size/line-height *font-family;
+   los que tienen * son valores que deben de ir afuerzas */

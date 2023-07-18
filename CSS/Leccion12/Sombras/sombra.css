@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    /* text-shadow: ejex ejey difuminado color; */
+}
+div.cajita{
+   width: 30%;
+   height: 25%;
+   margin: auto;
+   border: 5px solid rgb(164, 21, 21); 
+   padding: 25px;
+   text-align: center;
+   box-shadow: 3px 3px 3px 6px gray;
+   color: darkcyan;
+   /* box-shadow: ejex ejey difuminado tamaño color; */
+}
+div.cajita.img{
+    width: 30%;
+    height: 25%;
+}
+div.cabecero{
+    background-color: rgb(123, 22, 22);
+    
+}
+div.cuerpo{
+    padding-top: 4px ;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+}
